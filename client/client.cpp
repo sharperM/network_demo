@@ -46,8 +46,6 @@ struct te
 	float i20;
 	char i21[256];
 	float i22;
-
-
 };
 
 
@@ -57,7 +55,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	int i= sizeof(struct te);
 
 	std::string en = "yi";
-	std::string cn = "сп";
+	std::string cn = "ц╩сп";
 	char aa[21] ={0};
 	int tee =strlen(en.c_str());
 	int tee1 = strlen (cn.c_str());
